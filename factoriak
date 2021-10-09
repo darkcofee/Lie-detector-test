@@ -1,0 +1,8 @@
+def factorial(number):
+      fact=1
+      for i in range(number):
+            fact=fact*(i+1)
+      print('factorial of a number is:",fact)
+number = int(input("enter number:"))
+
+factorial(number)
